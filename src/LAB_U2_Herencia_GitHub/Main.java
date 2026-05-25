@@ -7,6 +7,16 @@ public class Main {
     public static void main(String[] args) {
 
         Biblioteca biblioteca = new Biblioteca();
+
+        // Materiales de ejemplo
+        biblioteca.agregarMaterial(
+    new Revista(1, "National Costa Rica", 17, "Abril")
+);
+
+        biblioteca.agregarMaterial(
+    new Revista(2, "National Geographic", 15, "Mayo")
+);
+
         Scanner sc = new Scanner(System.in);
 
         int opcion;
